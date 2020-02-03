@@ -1,0 +1,25 @@
+.contenido {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.listad-noticias {
+    width: 700px;
+    float: left;
+}
+
+.noticia {
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.noticias-destacadas img {
+    width: 220px;
+    height: 200px;
+}
