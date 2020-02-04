@@ -20,8 +20,14 @@
 .menu {
     width: 960px;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
+
 
 .input-menu {
     border-radius: 30px;
@@ -56,14 +62,14 @@
 
 .tags ul li {
     padding: 2px 4px;
-    background-color: steelblue;
+    background-color: $colortag;
     margin-right: 1px;
-    color: white;
+    color: $colorblanco;
 }
 
 .newsletter {
     width: 960px;
-    background-color: #f2f4f5;
+    background-color: $colorback;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
